@@ -29,7 +29,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Stage 4 — reflection (reviewer + reviser loop)
 - [x] Scorecard runner across all stages, multiple runs
 - [x] Backend API (FastAPI) streaming live traces
-- [ ] Frontend UI (run stages, watch traces, compare scorecards)
+- [x] Frontend UI (run stages, watch traces, compare scorecards)
 
 ## Project layout
 

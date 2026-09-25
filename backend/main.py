@@ -35,6 +35,7 @@ STAGE_META = {
         "pattern": "None",
         "one_liner": "One plain model call. No tools, no data.",
         "fixes": [],
+        "flow": [{"label": "Model call (no tools)"}],
     },
     "stage1_tool_calls": {
         "order": 1,
@@ -42,6 +43,11 @@ STAGE_META = {
         "pattern": "Tool calls",
         "one_liner": "The model calls all six tools once, in one round, before writing.",
         "fixes": ["unknowable_facts"],
+        "flow": [
+            {"label": "Model chooses tool calls"},
+            {"label": "Tools run"},
+            {"label": "Model writes itinerary"},
+        ],
     },
     "stage2_react": {
         "order": 2,
@@ -49,6 +55,11 @@ STAGE_META = {
         "pattern": "ReAct",
         "one_liner": "Thought, action, observation, repeated until the model is ready.",
         "fixes": ["logistics"],
+        "flow": [
+            {"label": "Thought + action", "loop": True},
+            {"label": "Tools run", "loop": True},
+            {"label": "Write itinerary"},
+        ],
     },
     "stage3_planning": {
         "order": 3,
@@ -56,6 +67,11 @@ STAGE_META = {
         "pattern": "Planning",
         "one_liner": "An outline first, then one day worker per day.",
         "fixes": ["budget_overshoot", "time_window"],
+        "flow": [
+            {"label": "Planner writes outline"},
+            {"label": "Day worker fills one day", "loop": True},
+            {"label": "Assembler + total"},
+        ],
     },
     "stage4_reflection": {
         "order": 4,
@@ -63,6 +79,12 @@ STAGE_META = {
         "pattern": "Reflection",
         "one_liner": "A reviewer checks the finished plan and sends problems back to fix.",
         "fixes": ["age_group"],
+        "flow": [
+            {"label": "Outline + day workers"},
+            {"label": "Assembler"},
+            {"label": "Reviewer lists problems"},
+            {"label": "Reviser fixes days (max 2 rounds)", "loop": True},
+        ],
     },
 }
 
