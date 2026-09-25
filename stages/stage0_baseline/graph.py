@@ -5,7 +5,7 @@ graph here -- the build spec is explicit that Stage 0 has none.
 """
 from __future__ import annotations
 
-from common.llm import get_llm
+from common.llm import get_llm, usage_from_message
 from common.schema import Itinerary, TripRequest
 from common.trace import Tracer
 
@@ -21,19 +21,8 @@ def run(trip: TripRequest, tracer: Tracer) -> Itinerary:
     tracer.stage_marker("Calling the model with no tools and no data")
     result = llm.invoke(messages)
 
-    raw = result.get("raw")
-    usage = getattr(raw, "usage_metadata", None) if raw is not None else None
-    tracer.model_usage(_normalize_usage(usage), node="baseline")
+    tracer.model_usage(usage_from_message(result.get("raw")), node="baseline")
 
     itinerary: Itinerary = result["parsed"]
     tracer.final_itinerary(itinerary.model_dump(mode="json"))
     return itinerary
-
-
-def _normalize_usage(usage) -> dict:
-    if not usage:
-        return {}
-    return {
-        "prompt_tokens": usage.get("input_tokens", 0),
-        "completion_tokens": usage.get("output_tokens", 0),
-    }

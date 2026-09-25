@@ -23,7 +23,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
 - [x] Scoring script + hand-written test itineraries (`scoring/score.py`)
 - [x] Stage 0 — baseline (one plain model call)
-- [ ] Stage 1 — tool calls (single round)
+- [x] Stage 1 — tool calls (single round)
 - [ ] Stage 2 — ReAct (loop of thought/action/observation)
 - [ ] Stage 3 — planning (outline + per-day workers)
 - [ ] Stage 4 — reflection (reviewer + reviser loop)

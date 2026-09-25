@@ -4,6 +4,7 @@ confident first attempt looks like without real facts.
 """
 from __future__ import annotations
 
+from common.prompts import build_trip_summary
 from common.schema import TripRequest
 
 SYSTEM_PROMPT = (
@@ -17,14 +18,4 @@ SYSTEM_PROMPT = (
 
 
 def build_user_prompt(trip: TripRequest) -> str:
-    counts = trip.group_counts()
-    party = ", ".join(f"{n} {g}" for g, n in counts.items() if n)
-    return (
-        f"Plan a trip to {trip.destination}.\n"
-        f"Arrival: {trip.arrival:%A %d %B %Y, %H:%M}\n"
-        f"Departure: {trip.departure:%A %d %B %Y, %H:%M}\n"
-        f"Travelers: {party}\n"
-        f"Budget for on-ground spend, excluding flights and the stay: ₹{trip.budget_inr:,}\n"
-        f"Stay area: {trip.stay_area}\n\n"
-        "Return a day-by-day itinerary covering every calendar day from arrival to departure."
-    )
+    return build_trip_summary(trip)

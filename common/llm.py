@@ -36,3 +36,17 @@ def get_llm(temperature: float = DEFAULT_TEMPERATURE) -> ChatOpenAI:
 
 def model_name() -> str:
     return os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
+
+
+def usage_from_message(message) -> dict:
+    """Pulls prompt/completion token counts off an AIMessage's
+    usage_metadata, in the shape Tracer.model_usage expects. Returns {} if
+    the message has none (e.g. some providers omit it).
+    """
+    usage = getattr(message, "usage_metadata", None) if message is not None else None
+    if not usage:
+        return {}
+    return {
+        "prompt_tokens": usage.get("input_tokens", 0),
+        "completion_tokens": usage.get("output_tokens", 0),
+    }
