@@ -1,0 +1,31 @@
+{
+  "city": "Delhi",
+  "days": [
+    {
+      "date": "2027-04-11",
+      "condition": "Sunny",
+      "high_c": 34,
+      "rain_chance_percent": 5,
+      "air_quality": "Moderate",
+      "avoid_outdoor_windows": []
+    },
+    {
+      "date": "2027-04-12",
+      "condition": "Sunny",
+      "high_c": 35,
+      "rain_chance_percent": 5,
+      "air_quality": "Moderate",
+      "avoid_outdoor_windows": []
+    },
+    {
+      "date": "2027-04-13",
+      "condition": "Hazy",
+      "high_c": 33,
+      "rain_chance_percent": 5,
+      "air_quality": "Poor",
+      "avoid_outdoor_windows": [
+        {"start": "10:00", "end": "13:00", "reason": "Poor air quality, avoid prolonged outdoor exposure"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "city": "Bangalore",
+  "places": [
+    {
+      "name": "Lalbagh Botanical Garden",
+      "category": "park",
+      "area": "Lalbagh",
+      "base_price_inr": {"child": 0, "adult": 30, "senior": 30},
+      "duration_minutes": 90,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "06:00", "close": "19:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Cubbon Park",
+      "category": "park",
+      "area": "Cubbon Park",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "06:00", "close": "18:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Bangalore Palace",
+      "category": "palace",
+      "area": "Vasanth Nagar",
+      "base_price_inr": {"child": 110, "adult": 230, "senior": 230},
+      "duration_minutes": 90,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "17:30"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Vidhana Soudha Viewpoint",
+      "category": "viewpoint",
+      "area": "Cubbon Park",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 20,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "00:00", "close": "23:59"},
+      "closed_dates": [],
+      "date_overrides": {},
+      "notes": "Exterior viewing only, the building itself is not open to visitors"
+    },
+    {
+      "name": "ISKCON Temple",
+      "category": "temple",
+      "area": "Rajajinagar",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "07:00", "close": "20:30"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Visvesvaraya Industrial and Technological Museum",
+      "category": "museum",
+      "area": "Cubbon Park Road",
+      "base_price_inr": {"child": 40, "adult": 85, "senior": 85},
+      "duration_minutes": 90,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "18:00"},
+      "closed_dates": ["2027-04-12"],
+      "date_overrides": {}
+    },
+    {
+      "name": "Bannerghatta Biological Park",
+      "category": "zoo",
+      "area": "Bannerghatta",
+      "base_price_inr": {"child": 150, "adult": 300, "senior": 300},
+      "duration_minutes": 180,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:30", "close": "16:30"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "HAL Aerospace Museum",
+      "category": "museum",
+      "area": "Marathahalli",
+      "base_price_inr": {"child": 60, "adult": 125, "senior": 125},
+      "duration_minutes": 75,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "17:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Commercial Street",
+      "category": "market",
+      "area": "Shivajinagar",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "21:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "UB City Mall",
+      "category": "mall",
+      "area": "Vittal Mallya Road",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "22:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Indiranagar 100 Feet Road",
+      "category": "shopping street",
+      "area": "Indiranagar",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 45,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "22:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Bangalore Aquarium",
+      "category": "aquarium",
+      "area": "Cubbon Park",
+      "base_price_inr": {"child": 15, "adult": 30, "senior": 30},
+      "duration_minutes": 45,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "17:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Ulsoor Lake",
+      "category": "lake",
+      "area": "Ulsoor",
+      "base_price_inr": {"child": 40, "adult": 80, "senior": 80},
+      "duration_minutes": 45,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:00", "close": "18:00"},
+      "closed_dates": [],
+      "date_overrides": {},
+      "notes": "Price shown is the pedal-boating fee per person"
+    }
+  ]
+}

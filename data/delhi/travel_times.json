@@ -1,0 +1,2039 @@
+{
+  "city": "Delhi",
+  "peak_windows": [
+    {
+      "start": "08:00",
+      "end": "10:00"
+    },
+    {
+      "start": "18:00",
+      "end": "20:00"
+    }
+  ],
+  "pairs": [
+    {
+      "from": "Connaught Place",
+      "to": "Red Fort",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Humayun's Tomb",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Qutub Minar",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Connaught Place",
+      "to": "India Gate",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Lotus Temple",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Connaught Place",
+      "to": "National Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Akshardham Temple",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Jama Masjid",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Chandni Chowk",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Connaught Place Market",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Lodhi Garden",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Dilli Haat",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Connaught Place",
+      "to": "National Rail Museum",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Raj Ghat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Karim's",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Indian Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place",
+      "to": "United Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Connaught Place",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Red Fort",
+      "to": "Humayun's Tomb",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Red Fort",
+      "to": "Qutub Minar",
+      "normal_minutes": 75,
+      "normal_cost_inr": 580,
+      "peak_minutes": 100,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Red Fort",
+      "to": "India Gate",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Red Fort",
+      "to": "Lotus Temple",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 85,
+      "peak_cost_inr": 540
+    },
+    {
+      "from": "Red Fort",
+      "to": "National Museum",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Red Fort",
+      "to": "Akshardham Temple",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Red Fort",
+      "to": "Jama Masjid",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Red Fort",
+      "to": "Chandni Chowk",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Red Fort",
+      "to": "Connaught Place Market",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Red Fort",
+      "to": "Lodhi Garden",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Red Fort",
+      "to": "Dilli Haat",
+      "normal_minutes": 55,
+      "normal_cost_inr": 390,
+      "peak_minutes": 70,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Red Fort",
+      "to": "National Rail Museum",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Red Fort",
+      "to": "Raj Ghat",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Red Fort",
+      "to": "Karim's",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Red Fort",
+      "to": "Indian Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Red Fort",
+      "to": "United Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Red Fort",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Red Fort",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Red Fort",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Red Fort",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Red Fort",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 55,
+      "normal_cost_inr": 390,
+      "peak_minutes": 70,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Qutub Minar",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "India Gate",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 25,
+      "peak_cost_inr": 150
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Lotus Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "National Museum",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 25,
+      "peak_cost_inr": 150
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Akshardham Temple",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Jama Masjid",
+      "normal_minutes": 40,
+      "normal_cost_inr": 280,
+      "peak_minutes": 50,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Chandni Chowk",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Connaught Place Market",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Lodhi Garden",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Dilli Haat",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "National Rail Museum",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Raj Ghat",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Karim's",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Indian Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "United Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Bukhara",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Humayun's Tomb",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "India Gate",
+      "normal_minutes": 55,
+      "normal_cost_inr": 410,
+      "peak_minutes": 70,
+      "peak_cost_inr": 450
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Lotus Temple",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 25,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "National Museum",
+      "normal_minutes": 55,
+      "normal_cost_inr": 410,
+      "peak_minutes": 70,
+      "peak_cost_inr": 450
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Akshardham Temple",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Jama Masjid",
+      "normal_minutes": 75,
+      "normal_cost_inr": 580,
+      "peak_minutes": 100,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Chandni Chowk",
+      "normal_minutes": 75,
+      "normal_cost_inr": 580,
+      "peak_minutes": 100,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Connaught Place Market",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Lodhi Garden",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Dilli Haat",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "National Rail Museum",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Raj Ghat",
+      "normal_minutes": 75,
+      "normal_cost_inr": 550,
+      "peak_minutes": 100,
+      "peak_cost_inr": 600
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Karim's",
+      "normal_minutes": 75,
+      "normal_cost_inr": 580,
+      "peak_minutes": 100,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Indian Coffee House",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "United Coffee House",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 75,
+      "normal_cost_inr": 580,
+      "peak_minutes": 100,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Bukhara",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Khan Chacha",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Qutub Minar",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "India Gate",
+      "to": "Lotus Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "India Gate",
+      "to": "National Museum",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "India Gate",
+      "to": "Akshardham Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "India Gate",
+      "to": "Jama Masjid",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "India Gate",
+      "to": "Chandni Chowk",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "India Gate",
+      "to": "Connaught Place Market",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "India Gate",
+      "to": "Lodhi Garden",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 25,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "India Gate",
+      "to": "Dilli Haat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "India Gate",
+      "to": "National Rail Museum",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "India Gate",
+      "to": "Raj Ghat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "India Gate",
+      "to": "Karim's",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "India Gate",
+      "to": "Indian Coffee House",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "India Gate",
+      "to": "United Coffee House",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "India Gate",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "India Gate",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "India Gate",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "India Gate",
+      "to": "Khan Chacha",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "India Gate",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "National Museum",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Akshardham Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Jama Masjid",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 85,
+      "peak_cost_inr": 550
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Chandni Chowk",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 85,
+      "peak_cost_inr": 540
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Connaught Place Market",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Lodhi Garden",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Dilli Haat",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "National Rail Museum",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Raj Ghat",
+      "normal_minutes": 60,
+      "normal_cost_inr": 470,
+      "peak_minutes": 80,
+      "peak_cost_inr": 520
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Karim's",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 85,
+      "peak_cost_inr": 550
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Indian Coffee House",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "United Coffee House",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 85,
+      "peak_cost_inr": 540
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Khan Chacha",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Lotus Temple",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "National Museum",
+      "to": "Akshardham Temple",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "National Museum",
+      "to": "Jama Masjid",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "National Museum",
+      "to": "Chandni Chowk",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "National Museum",
+      "to": "Connaught Place Market",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "National Museum",
+      "to": "Lodhi Garden",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 25,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "National Museum",
+      "to": "Dilli Haat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "National Museum",
+      "to": "National Rail Museum",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "National Museum",
+      "to": "Raj Ghat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "National Museum",
+      "to": "Karim's",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "National Museum",
+      "to": "Indian Coffee House",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "National Museum",
+      "to": "United Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "National Museum",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 15,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "National Museum",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "National Museum",
+      "to": "Bukhara",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "National Museum",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "National Museum",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Jama Masjid",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Chandni Chowk",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Connaught Place Market",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Lodhi Garden",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Dilli Haat",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "National Rail Museum",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Raj Ghat",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Karim's",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Indian Coffee House",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "United Coffee House",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Bukhara",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Akshardham Temple",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Chandni Chowk",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Connaught Place Market",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Lodhi Garden",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Dilli Haat",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "National Rail Museum",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Raj Ghat",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Karim's",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Indian Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "United Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Jama Masjid",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Connaught Place Market",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Lodhi Garden",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Dilli Haat",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "National Rail Museum",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Raj Ghat",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Karim's",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Indian Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "United Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Chandni Chowk",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Lodhi Garden",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Dilli Haat",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "National Rail Museum",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Raj Ghat",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Karim's",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Indian Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "United Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Connaught Place Market",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Dilli Haat",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 25,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "National Rail Museum",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Raj Ghat",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Karim's",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Indian Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "United Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Lodhi Garden",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 25,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "National Rail Museum",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 40,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Raj Ghat",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Karim's",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Indian Coffee House",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "United Coffee House",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Bukhara",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 40,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Khan Chacha",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Dilli Haat",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Raj Ghat",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Karim's",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Indian Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "United Coffee House",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Bukhara",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Khan Chacha",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "National Rail Museum",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 40,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Karim's",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Indian Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "United Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 15,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Khan Chacha",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Raj Ghat",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Karim's",
+      "to": "Indian Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Karim's",
+      "to": "United Coffee House",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Karim's",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Karim's",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Karim's",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Karim's",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Karim's",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "United Coffee House",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Indian Coffee House",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "United Coffee House",
+      "to": "Saravana Bhavan",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "United Coffee House",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "United Coffee House",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "United Coffee House",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "United Coffee House",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Saravana Bhavan",
+      "to": "Paranthe Wali Gali",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 40,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Saravana Bhavan",
+      "to": "Bukhara",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Saravana Bhavan",
+      "to": "Khan Chacha",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Saravana Bhavan",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Paranthe Wali Gali",
+      "to": "Bukhara",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "Paranthe Wali Gali",
+      "to": "Khan Chacha",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Paranthe Wali Gali",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Bukhara",
+      "to": "Khan Chacha",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Bukhara",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 40,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Khan Chacha",
+      "to": "Dilli Haat Food Court",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    }
+  ]
+}
