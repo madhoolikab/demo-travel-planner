@@ -26,7 +26,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Stage 1 — tool calls (single round)
 - [x] Stage 2 — ReAct (loop of thought/action/observation)
 - [x] Stage 3 — planning (outline + per-day workers)
-- [ ] Stage 4 — reflection (reviewer + reviser loop)
+- [x] Stage 4 — reflection (reviewer + reviser loop)
 - [ ] Scorecard runner across all stages, multiple runs
 - [ ] Backend API (FastAPI) streaming live traces
 - [ ] Frontend UI (run stages, watch traces, compare scorecards)
