@@ -93,6 +93,7 @@ def _execute(state: RunState) -> None:
             state.itinerary,
             state.events,
             summary,
+            scorecard=state.scorecard,
         )
     except Exception as exc:  # noqa: BLE001 -- surface any failure to the UI rather than crash the thread silently
         state.status = "error"

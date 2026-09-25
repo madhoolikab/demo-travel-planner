@@ -71,6 +71,7 @@ def run_stage_n_times(stage_name: str, request_name: str, n: int) -> dict:
             itinerary.model_dump(mode="json"),
             tracer.events,
             summary,
+            scorecard=report.as_dict(),
         )
         print("pass" if report.overall_pass else "fail")
 

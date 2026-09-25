@@ -17,7 +17,13 @@ def _slug(*parts: str) -> str:
 
 
 def save_run(
-    stage: str, request_name: str, trip: dict, itinerary: dict, events: list, summary: dict
+    stage: str,
+    request_name: str,
+    trip: dict,
+    itinerary: dict,
+    events: list,
+    summary: dict,
+    scorecard: Optional[dict] = None,
 ) -> Path:
     RUNS_DIR.mkdir(exist_ok=True)
     payload = {
@@ -27,6 +33,7 @@ def save_run(
         "itinerary": itinerary,
         "events": events,
         "summary": summary,
+        "scorecard": scorecard,
         "saved_at": datetime.now(timezone.utc).isoformat(),
     }
     slug = _slug(stage, request_name)
@@ -58,6 +65,7 @@ def list_runs() -> list[dict]:
                 "request_name": data.get("request_name"),
                 "saved_at": data.get("saved_at"),
                 "summary": data.get("summary"),
+                "scorecard": data.get("scorecard"),
             }
         )
     return out

@@ -68,14 +68,6 @@ def main(stage_name: str, run_stage: StageFn, argv: Optional[list[str]] = None) 
         itinerary = run_stage(trip, tracer)
         tracer.stop()
         summary = tracer.summary()
-        save_run(
-            stage_name,
-            args.request,
-            trip.model_dump(mode="json"),
-            itinerary.model_dump(mode="json"),
-            tracer.events,
-            summary,
-        )
 
     print(render_itinerary(itinerary))
     print(
@@ -86,4 +78,15 @@ def main(stage_name: str, run_stage: StageFn, argv: Optional[list[str]] = None) 
     print()
     report = score_itinerary(trip, itinerary)
     print_scorecard(report)
+
+    if not args.replay:
+        save_run(
+            stage_name,
+            args.request,
+            trip.model_dump(mode="json"),
+            itinerary.model_dump(mode="json"),
+            tracer.events,
+            summary,
+            scorecard=report.as_dict(),
+        )
     return 0
