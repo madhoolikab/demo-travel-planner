@@ -24,7 +24,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Scoring script + hand-written test itineraries (`scoring/score.py`)
 - [x] Stage 0 — baseline (one plain model call)
 - [x] Stage 1 — tool calls (single round)
-- [ ] Stage 2 — ReAct (loop of thought/action/observation)
+- [x] Stage 2 — ReAct (loop of thought/action/observation)
 - [ ] Stage 3 — planning (outline + per-day workers)
 - [ ] Stage 4 — reflection (reviewer + reviser loop)
 - [ ] Scorecard runner across all stages, multiple runs

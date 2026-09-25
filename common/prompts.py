@@ -7,6 +7,17 @@ from __future__ import annotations
 
 from common.schema import TripRequest
 
+# Used by every stage from Stage 1 on: the final call that turns gathered
+# tool results into the Itinerary, with no tools attached of its own.
+TOOL_GROUNDED_WRITER_SYSTEM_PROMPT = (
+    "Using only what you learned from the tools above, write a day-by-day "
+    "itinerary with specific places, times, and costs in INR. Do not invent "
+    "facts you were not given by a tool. Include a travel slot for every "
+    "move between places, including from the stay area at the start of the "
+    "day and back at the end. State a total cost and any assumptions you "
+    "made."
+)
+
 
 def build_trip_summary(trip: TripRequest) -> str:
     counts = trip.group_counts()

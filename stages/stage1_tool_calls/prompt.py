@@ -5,7 +5,7 @@ one round, before it writes anything.
 """
 from __future__ import annotations
 
-from common.prompts import build_trip_summary
+from common.prompts import TOOL_GROUNDED_WRITER_SYSTEM_PROMPT, build_trip_summary
 from common.schema import TripRequest
 
 TOOL_CALLER_SYSTEM_PROMPT = (
@@ -16,13 +16,7 @@ TOOL_CALLER_SYSTEM_PROMPT = (
     "call tools after this, so gather everything you think you'll need now."
 )
 
-WRITER_SYSTEM_PROMPT = (
-    "Using only the tool results above, write a day-by-day itinerary with "
-    "specific places, times, and costs in INR. Do not invent facts you were "
-    "not given by a tool. Include a travel slot for every move between "
-    "places, including from the stay area at the start of the day and back "
-    "at the end. State a total cost and any assumptions you made."
-)
+WRITER_SYSTEM_PROMPT = TOOL_GROUNDED_WRITER_SYSTEM_PROMPT
 
 
 def build_user_prompt(trip: TripRequest) -> str:
