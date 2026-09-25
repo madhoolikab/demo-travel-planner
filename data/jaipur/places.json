@@ -1,0 +1,192 @@
+{
+  "city": "Jaipur",
+  "places": [
+    {
+      "name": "Amber Fort",
+      "category": "fort",
+      "area": "Amer",
+      "base_price_inr": {"child": 100, "adult": 200, "senior": 200},
+      "duration_minutes": 150,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "08:00", "close": "17:30"},
+      "closed_dates": [],
+      "date_overrides": {
+        "2027-04-12": {"ticket_multiplier": 2.0, "note": "Gangaur Festival: surge pricing at this sight today"}
+      }
+    },
+    {
+      "name": "City Palace",
+      "category": "palace",
+      "area": "Pink City",
+      "base_price_inr": {"child": 200, "adult": 400, "senior": 400},
+      "duration_minutes": 120,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:30", "close": "17:00"},
+      "closed_dates": [],
+      "date_overrides": {
+        "2027-04-12": {"ticket_multiplier": 2.0, "note": "Gangaur Festival: surge pricing at this sight today"}
+      }
+    },
+    {
+      "name": "Hawa Mahal",
+      "category": "monument",
+      "area": "Pink City",
+      "base_price_inr": {"child": 25, "adult": 50, "senior": 50},
+      "duration_minutes": 45,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:00", "close": "16:30"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Jantar Mantar",
+      "category": "monument",
+      "area": "Pink City",
+      "base_price_inr": {"child": 20, "adult": 50, "senior": 50},
+      "duration_minutes": 45,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:00", "close": "16:30"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Nahargarh Fort",
+      "category": "fort",
+      "area": "Amer",
+      "base_price_inr": {"child": 25, "adult": 50, "senior": 50},
+      "duration_minutes": 90,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:00", "close": "17:30"},
+      "closed_dates": ["2027-04-12"],
+      "date_overrides": {}
+    },
+    {
+      "name": "Jaigarh Fort",
+      "category": "fort",
+      "area": "Amer",
+      "base_price_inr": {"child": 25, "adult": 85, "senior": 85},
+      "duration_minutes": 90,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["adult", "senior"],
+      "hours": {"open": "09:00", "close": "17:30"},
+      "closed_dates": [],
+      "date_overrides": {},
+      "suitability_note": "Steep uphill walk on uneven stone paths to the ramparts; not suitable for young children"
+    },
+    {
+      "name": "Albert Hall Museum",
+      "category": "museum",
+      "area": "Ram Niwas Bagh",
+      "base_price_inr": {"child": 20, "adult": 40, "senior": 40},
+      "duration_minutes": 75,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "09:00", "close": "17:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Birla Mandir",
+      "category": "temple",
+      "area": "Tilak Nagar",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 45,
+      "indoor_outdoor": "indoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "06:00", "close": "20:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Jal Mahal",
+      "category": "viewpoint",
+      "area": "Man Sagar Lake",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 30,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "00:00", "close": "23:59"},
+      "closed_dates": [],
+      "date_overrides": {},
+      "notes": "Viewing from the lakeside only, no entry inside the palace"
+    },
+    {
+      "name": "Chokhi Dhani",
+      "category": "cultural village",
+      "area": "Tonk Road",
+      "base_price_inr": {"child": 500, "adult": 900, "senior": 900},
+      "duration_minutes": 180,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "17:00", "close": "22:30"},
+      "closed_dates": [],
+      "date_overrides": {},
+      "notes": "Evening-only cultural village with folk shows and a dinner buffet included in the ticket"
+    },
+    {
+      "name": "Panna Meena ka Kund",
+      "category": "stepwell",
+      "area": "Amer",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 30,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "07:00", "close": "18:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Galtaji Temple",
+      "category": "temple",
+      "area": "Galta",
+      "base_price_inr": {"child": 20, "adult": 30, "senior": 30},
+      "duration_minutes": 60,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "06:00", "close": "18:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Central Park",
+      "category": "park",
+      "area": "C-Scheme",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 45,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "05:00", "close": "20:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Johari Bazaar",
+      "category": "market",
+      "area": "Pink City",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:30", "close": "21:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    },
+    {
+      "name": "Bapu Bazaar",
+      "category": "market",
+      "area": "Pink City",
+      "base_price_inr": {"child": 0, "adult": 0, "senior": 0},
+      "duration_minutes": 60,
+      "indoor_outdoor": "outdoor",
+      "suitable_age_groups": ["child", "adult", "senior"],
+      "hours": {"open": "10:30", "close": "21:00"},
+      "closed_dates": [],
+      "date_overrides": {}
+    }
+  ]
+}

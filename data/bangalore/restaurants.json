@@ -1,0 +1,61 @@
+{
+  "city": "Bangalore",
+  "restaurants": [
+    {
+      "name": "Vidyarthi Bhavan",
+      "area": "Basavanagudi",
+      "cuisine": "South Indian",
+      "avg_price_per_person_inr": 250,
+      "hours": {"open": "06:30", "close": "21:30"}
+    },
+    {
+      "name": "Empire Restaurant",
+      "area": "MG Road",
+      "cuisine": "Multi-cuisine and kebabs",
+      "avg_price_per_person_inr": 500,
+      "hours": {"open": "11:00", "close": "23:30"}
+    },
+    {
+      "name": "Toit Brewpub",
+      "area": "Indiranagar",
+      "cuisine": "Microbrewery and continental",
+      "avg_price_per_person_inr": 800,
+      "hours": {"open": "12:00", "close": "23:30"}
+    },
+    {
+      "name": "Truffles",
+      "area": "Indiranagar",
+      "cuisine": "American and burgers",
+      "avg_price_per_person_inr": 450,
+      "hours": {"open": "11:00", "close": "23:00"}
+    },
+    {
+      "name": "Mavalli Tiffin Room",
+      "area": "Lalbagh Road",
+      "cuisine": "South Indian",
+      "avg_price_per_person_inr": 300,
+      "hours": {"open": "07:00", "close": "21:00"}
+    },
+    {
+      "name": "Karavalli",
+      "area": "Vasanth Nagar",
+      "cuisine": "Coastal Indian",
+      "avg_price_per_person_inr": 900,
+      "hours": {"open": "12:30", "close": "23:00"}
+    },
+    {
+      "name": "Corner House Ice Cream",
+      "area": "Indiranagar",
+      "cuisine": "Dessert",
+      "avg_price_per_person_inr": 150,
+      "hours": {"open": "11:00", "close": "23:00"}
+    },
+    {
+      "name": "Nagarjuna Restaurant",
+      "area": "Residency Road",
+      "cuisine": "Andhra",
+      "avg_price_per_person_inr": 400,
+      "hours": {"open": "12:00", "close": "23:00"}
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "days": [
+    {
+      "date": "2027-04-11",
+      "slots": [
+        {
+          "kind": "travel",
+          "place_name": "Central Park",
+          "start": "15:05",
+          "end": "15:15",
+          "cost_inr": 70,
+          "note": "Cab from C-Scheme"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Central Park",
+          "start": "15:15",
+          "end": "16:00",
+          "cost_inr": 0.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Four Seasons Restaurant",
+          "start": "16:55",
+          "end": "17:05",
+          "cost_inr": 60,
+          "note": "Cab from Central Park"
+        },
+        {
+          "kind": "meal",
+          "place_name": "Four Seasons Restaurant",
+          "start": "17:05",
+          "end": "18:20",
+          "cost_inr": 1350,
+          "note": "Meal for the group"
+        },
+        {
+          "kind": "travel",
+          "place_name": "C-Scheme",
+          "start": "18:20",
+          "end": "18:35",
+          "cost_inr": 80,
+          "note": "Cab from Four Seasons Restaurant"
+        }
+      ]
+    },
+    {
+      "date": "2027-04-12",
+      "slots": [
+        {
+          "kind": "travel",
+          "place_name": "City Palace",
+          "start": "09:00",
+          "end": "09:25",
+          "cost_inr": 140,
+          "note": "Cab from C-Scheme"
+        },
+        {
+          "kind": "activity",
+          "place_name": "City Palace",
+          "start": "09:30",
+          "end": "11:30",
+          "cost_inr": 2000.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Albert Hall Museum",
+          "start": "11:30",
+          "end": "11:45",
+          "cost_inr": 120,
+          "note": "Cab from City Palace"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Albert Hall Museum",
+          "start": "11:45",
+          "end": "13:00",
+          "cost_inr": 100.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Four Seasons Restaurant",
+          "start": "13:00",
+          "end": "13:15",
+          "cost_inr": 120,
+          "note": "Cab from Albert Hall Museum"
+        },
+        {
+          "kind": "meal",
+          "place_name": "Four Seasons Restaurant",
+          "start": "13:15",
+          "end": "14:15",
+          "cost_inr": 1350,
+          "note": "Meal for the group"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Birla Mandir",
+          "start": "14:15",
+          "end": "14:40",
+          "cost_inr": 170,
+          "note": "Cab from Four Seasons Restaurant"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Birla Mandir",
+          "start": "14:40",
+          "end": "15:25",
+          "cost_inr": 0.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Bapu Bazaar",
+          "start": "16:00",
+          "end": "16:25",
+          "cost_inr": 180,
+          "note": "Cab from Birla Mandir"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Bapu Bazaar",
+          "start": "16:25",
+          "end": "17:25",
+          "cost_inr": 0.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Peacock Rooftop Restaurant",
+          "start": "17:25",
+          "end": "17:40",
+          "cost_inr": 90,
+          "note": "Cab from Bapu Bazaar"
+        },
+        {
+          "kind": "meal",
+          "place_name": "Peacock Rooftop Restaurant",
+          "start": "17:40",
+          "end": "18:55",
+          "cost_inr": 1500,
+          "note": "Meal for the group"
+        },
+        {
+          "kind": "travel",
+          "place_name": "C-Scheme",
+          "start": "18:55",
+          "end": "19:20",
+          "cost_inr": 140,
+          "note": "Cab from Peacock Rooftop Restaurant"
+        }
+      ]
+    },
+    {
+      "date": "2027-04-13",
+      "slots": [
+        {
+          "kind": "travel",
+          "place_name": "Hawa Mahal",
+          "start": "09:00",
+          "end": "09:25",
+          "cost_inr": 150,
+          "note": "Cab from C-Scheme"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Hawa Mahal",
+          "start": "09:25",
+          "end": "10:10",
+          "cost_inr": 125.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Jantar Mantar",
+          "start": "10:10",
+          "end": "10:20",
+          "cost_inr": 60,
+          "note": "Cab from Hawa Mahal"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Jantar Mantar",
+          "start": "10:20",
+          "end": "11:05",
+          "cost_inr": 120.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Laxmi Misthan Bhandar",
+          "start": "11:05",
+          "end": "11:15",
+          "cost_inr": 70,
+          "note": "Cab from Jantar Mantar"
+        },
+        {
+          "kind": "meal",
+          "place_name": "Laxmi Misthan Bhandar",
+          "start": "11:15",
+          "end": "12:15",
+          "cost_inr": 1200,
+          "note": "Meal for the group"
+        },
+        {
+          "kind": "travel",
+          "place_name": "Johari Bazaar",
+          "start": "12:15",
+          "end": "12:25",
+          "cost_inr": 60,
+          "note": "Cab from Laxmi Misthan Bhandar"
+        },
+        {
+          "kind": "activity",
+          "place_name": "Johari Bazaar",
+          "start": "12:25",
+          "end": "13:25",
+          "cost_inr": 0.0,
+          "note": "Tickets for 3 travelers"
+        },
+        {
+          "kind": "travel",
+          "place_name": "C-Scheme",
+          "start": "13:25",
+          "end": "13:45",
+          "cost_inr": 130,
+          "note": "Cab from Johari Bazaar"
+        }
+      ]
+    }
+  ],
+  "total_cost_inr": 9385.0,
+  "assumptions": [
+    "All costs and travel times taken from the simulated data tools."
+  ]
+}

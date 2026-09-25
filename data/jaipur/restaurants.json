@@ -1,0 +1,61 @@
+{
+  "city": "Jaipur",
+  "restaurants": [
+    {
+      "name": "Laxmi Misthan Bhandar",
+      "area": "Pink City",
+      "cuisine": "Rajasthani vegetarian",
+      "avg_price_per_person_inr": 400,
+      "hours": {"open": "08:00", "close": "22:30"}
+    },
+    {
+      "name": "Peacock Rooftop Restaurant",
+      "area": "Pink City",
+      "cuisine": "Multi-cuisine",
+      "avg_price_per_person_inr": 500,
+      "hours": {"open": "12:00", "close": "23:00"}
+    },
+    {
+      "name": "Tapri Central",
+      "area": "C-Scheme",
+      "cuisine": "Cafe",
+      "avg_price_per_person_inr": 300,
+      "hours": {"open": "08:00", "close": "23:00"}
+    },
+    {
+      "name": "Four Seasons Restaurant",
+      "area": "C-Scheme",
+      "cuisine": "Vegetarian multi-cuisine",
+      "avg_price_per_person_inr": 450,
+      "hours": {"open": "11:00", "close": "23:00"}
+    },
+    {
+      "name": "Handi Restaurant",
+      "area": "C-Scheme",
+      "cuisine": "Rajasthani and Mughlai",
+      "avg_price_per_person_inr": 500,
+      "hours": {"open": "12:00", "close": "23:30"}
+    },
+    {
+      "name": "Spice Court",
+      "area": "Amer",
+      "cuisine": "Multi-cuisine",
+      "avg_price_per_person_inr": 400,
+      "hours": {"open": "11:00", "close": "22:30"}
+    },
+    {
+      "name": "Rawat Mishthan Bhandar",
+      "area": "Station",
+      "cuisine": "Snacks and sweets",
+      "avg_price_per_person_inr": 150,
+      "hours": {"open": "06:00", "close": "22:00"}
+    },
+    {
+      "name": "Chokhi Dhani Dining",
+      "area": "Tonk Road",
+      "cuisine": "Rajasthani thali buffet",
+      "avg_price_per_person_inr": 700,
+      "hours": {"open": "17:00", "close": "22:30"}
+    }
+  ]
+}

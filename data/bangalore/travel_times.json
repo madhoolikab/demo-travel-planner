@@ -1,0 +1,1859 @@
+{
+  "city": "Bangalore",
+  "peak_windows": [
+    {
+      "start": "17:00",
+      "end": "20:00"
+    }
+  ],
+  "pairs": [
+    {
+      "from": "Indiranagar",
+      "to": "Lalbagh Botanical Garden",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Cubbon Park",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Bangalore Palace",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Vidhana Soudha Viewpoint",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar",
+      "to": "ISKCON Temple",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 130,
+      "peak_cost_inr": 650
+    },
+    {
+      "from": "Indiranagar",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Commercial Street",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar",
+      "to": "UB City Mall",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Toit Brewpub",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Truffles",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Cubbon Park",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Bangalore Palace",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Vidhana Soudha Viewpoint",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "ISKCON Temple",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 40,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 100,
+      "peak_cost_inr": 510
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 80,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Commercial Street",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "UB City Mall",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Empire Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Toit Brewpub",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Truffles",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Karavalli",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Lalbagh Botanical Garden",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Bangalore Palace",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Vidhana Soudha Viewpoint",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "ISKCON Temple",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 50,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 60,
+      "normal_cost_inr": 470,
+      "peak_minutes": 120,
+      "peak_cost_inr": 610
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 70,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Commercial Street",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "UB City Mall",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 40,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Cubbon Park",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Vidhana Soudha Viewpoint",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "ISKCON Temple",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 130,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 70,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Commercial Street",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "UB City Mall",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 30,
+      "peak_cost_inr": 170
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 50,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Karavalli",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Bangalore Palace",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "ISKCON Temple",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 65,
+      "normal_cost_inr": 470,
+      "peak_minutes": 130,
+      "peak_cost_inr": 610
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 70,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Commercial Street",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "UB City Mall",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 40,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Karavalli",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Vidhana Soudha Viewpoint",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Visvesvaraya Industrial and Technological Museum",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 60,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 70,
+      "normal_cost_inr": 530,
+      "peak_minutes": 140,
+      "peak_cost_inr": 690
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 100,
+      "peak_cost_inr": 510
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Commercial Street",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "UB City Mall",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 50,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 60,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Empire Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Toit Brewpub",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Truffles",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 50,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Karavalli",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "ISKCON Temple",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Bannerghatta Biological Park",
+      "normal_minutes": 60,
+      "normal_cost_inr": 460,
+      "peak_minutes": 120,
+      "peak_cost_inr": 600
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 70,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Commercial Street",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "UB City Mall",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 40,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Visvesvaraya Industrial and Technological Museum",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "HAL Aerospace Museum",
+      "normal_minutes": 70,
+      "normal_cost_inr": 520,
+      "peak_minutes": 140,
+      "peak_cost_inr": 680
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Commercial Street",
+      "normal_minutes": 65,
+      "normal_cost_inr": 510,
+      "peak_minutes": 130,
+      "peak_cost_inr": 660
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "UB City Mall",
+      "normal_minutes": 65,
+      "normal_cost_inr": 480,
+      "peak_minutes": 130,
+      "peak_cost_inr": 620
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 130,
+      "peak_cost_inr": 650
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 60,
+      "normal_cost_inr": 470,
+      "peak_minutes": 120,
+      "peak_cost_inr": 610
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 65,
+      "normal_cost_inr": 480,
+      "peak_minutes": 130,
+      "peak_cost_inr": 620
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 100,
+      "peak_cost_inr": 470
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Empire Restaurant",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 130,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Toit Brewpub",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 130,
+      "peak_cost_inr": 650
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Truffles",
+      "normal_minutes": 65,
+      "normal_cost_inr": 500,
+      "peak_minutes": 130,
+      "peak_cost_inr": 650
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 110,
+      "peak_cost_inr": 520
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Karavalli",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 130,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 65,
+      "normal_cost_inr": 490,
+      "peak_minutes": 130,
+      "peak_cost_inr": 640
+    },
+    {
+      "from": "Bannerghatta Biological Park",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 65,
+      "normal_cost_inr": 480,
+      "peak_minutes": 130,
+      "peak_cost_inr": 620
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Commercial Street",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 70,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "UB City Mall",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 70,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 70,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 60,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 90,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Empire Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 70,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Toit Brewpub",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Truffles",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 80,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Karavalli",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 70,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "HAL Aerospace Museum",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 70,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Commercial Street",
+      "to": "UB City Mall",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Karavalli",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Commercial Street",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Indiranagar 100 Feet Road",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 40,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Karavalli",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "UB City Mall",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Bangalore Aquarium",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 60,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Toit Brewpub",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Truffles",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Indiranagar 100 Feet Road",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Ulsoor Lake",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 50,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Empire Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Toit Brewpub",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Truffles",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 20,
+      "normal_cost_inr": 150,
+      "peak_minutes": 40,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bangalore Aquarium",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Vidyarthi Bhavan",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Empire Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Toit Brewpub",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Truffles",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 50,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 30,
+      "peak_cost_inr": 170
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Ulsoor Lake",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Empire Restaurant",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 60,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Toit Brewpub",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 60,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Truffles",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 60,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 30,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Karavalli",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 50,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 30,
+      "normal_cost_inr": 230,
+      "peak_minutes": 60,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Vidyarthi Bhavan",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 60,
+      "peak_cost_inr": 270
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Toit Brewpub",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Truffles",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 50,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Karavalli",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 90,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Empire Restaurant",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 20,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Toit Brewpub",
+      "to": "Truffles",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Toit Brewpub",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Toit Brewpub",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Toit Brewpub",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Toit Brewpub",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Truffles",
+      "to": "Mavalli Tiffin Room",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Truffles",
+      "to": "Karavalli",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Truffles",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 20,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Truffles",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Mavalli Tiffin Room",
+      "to": "Karavalli",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Mavalli Tiffin Room",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 50,
+      "peak_cost_inr": 250
+    },
+    {
+      "from": "Mavalli Tiffin Room",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 40,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Karavalli",
+      "to": "Corner House Ice Cream",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 30,
+      "peak_cost_inr": 160
+    },
+    {
+      "from": "Karavalli",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 20,
+      "peak_cost_inr": 100
+    },
+    {
+      "from": "Corner House Ice Cream",
+      "to": "Nagarjuna Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 30,
+      "peak_cost_inr": 130
+    }
+  ]
+}

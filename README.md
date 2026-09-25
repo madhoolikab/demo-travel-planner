@@ -18,18 +18,18 @@ counters update — without reading terminal output.
 This repo is being built incrementally, committing after each piece:
 
 - [x] Project scaffolding, requirements, env config
-- [ ] Trip Request / Itinerary schemas (`common/schema.py`)
-- [ ] Simulated data: Jaipur (Golden Trip), Bangalore, Delhi
-- [ ] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
-- [ ] Scoring script + hand-written test itineraries (`scoring/score.py`)
-- [ ] Stage 0 — baseline (one plain model call)
-- [ ] Stage 1 — tool calls (single round)
-- [ ] Stage 2 — ReAct (loop of thought/action/observation)
-- [ ] Stage 3 — planning (outline + per-day workers)
-- [ ] Stage 4 — reflection (reviewer + reviser loop)
-- [ ] Scorecard runner across all stages, multiple runs
-- [ ] Backend API (FastAPI) streaming live traces
-- [ ] Frontend UI (run stages, watch traces, compare scorecards)
+- [x] Trip Request / Itinerary schemas (`common/schema.py`)
+- [x] Simulated data: Jaipur (Golden Trip), Bangalore, Delhi
+- [x] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
+- [x] Scoring script + hand-written test itineraries (`scoring/score.py`)
+- [x] Stage 0 — baseline (one plain model call)
+- [x] Stage 1 — tool calls (single round)
+- [x] Stage 2 — ReAct (loop of thought/action/observation)
+- [x] Stage 3 — planning (outline + per-day workers)
+- [x] Stage 4 — reflection (reviewer + reviser loop)
+- [x] Scorecard runner across all stages, multiple runs
+- [x] Backend API (FastAPI) streaming live traces
+- [x] Frontend UI (run stages, watch traces, compare scorecards)
 
 ## Project layout
 
@@ -62,6 +62,26 @@ trip-planner-workshop/
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env   # fill in OPENAI_API_KEY
+```
+
+Run any stage from the command line:
+
+```bash
+python stages/stage0_baseline/run.py --request golden_jaipur
+python stages/stage2_react/run.py --request bangalore
+python stages/stage4_reflection/run.py --replay   # print the last saved run, no API call
+```
+
+Or run the whole scorecard across every stage:
+
+```bash
+python scoring/run_all.py --runs 3
+```
+
+Or run the web UI (backend + frontend on one port):
+
+```bash
+uvicorn backend.main:app --reload --port 8000
 ```
 
 ## The four patterns, in one line each

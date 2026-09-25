@@ -1,0 +1,31 @@
+{
+  "city": "Bangalore",
+  "days": [
+    {
+      "date": "2027-04-11",
+      "condition": "Partly cloudy",
+      "high_c": 30,
+      "rain_chance_percent": 20,
+      "air_quality": "Good",
+      "avoid_outdoor_windows": []
+    },
+    {
+      "date": "2027-04-12",
+      "condition": "Rain showers",
+      "high_c": 27,
+      "rain_chance_percent": 80,
+      "air_quality": "Good",
+      "avoid_outdoor_windows": [
+        {"start": "14:00", "end": "17:00", "reason": "Heavy rain showers expected"}
+      ]
+    },
+    {
+      "date": "2027-04-13",
+      "condition": "Partly cloudy",
+      "high_c": 29,
+      "rain_chance_percent": 15,
+      "air_quality": "Good",
+      "avoid_outdoor_windows": []
+    }
+  ]
+}

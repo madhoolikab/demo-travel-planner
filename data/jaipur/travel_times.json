@@ -1,0 +1,2223 @@
+{
+  "city": "Jaipur",
+  "peak_windows": [
+    {
+      "start": "08:00",
+      "end": "10:00"
+    },
+    {
+      "start": "17:00",
+      "end": "19:00"
+    }
+  ],
+  "pairs": [
+    {
+      "from": "C-Scheme",
+      "to": "Amber Fort",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "C-Scheme",
+      "to": "City Palace",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Hawa Mahal",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 25,
+      "peak_cost_inr": 150
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Jantar Mantar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 25,
+      "peak_cost_inr": 150
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Nahargarh Fort",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Birla Mandir",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Jal Mahal",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Galtaji Temple",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Central Park",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Johari Bazaar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Tapri Central",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Handi Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Spice Court",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "C-Scheme",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Amber Fort",
+      "to": "City Palace",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Hawa Mahal",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Jantar Mantar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Nahargarh Fort",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 75,
+      "normal_cost_inr": 480,
+      "peak_minutes": 95,
+      "peak_cost_inr": 520
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Birla Mandir",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 30,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 90,
+      "normal_cost_inr": 670,
+      "peak_minutes": 115,
+      "peak_cost_inr": 740
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Galtaji Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Central Park",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Johari Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Tapri Central",
+      "normal_minutes": 55,
+      "normal_cost_inr": 400,
+      "peak_minutes": 70,
+      "peak_cost_inr": 440
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Handi Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Spice Court",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Amber Fort",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 90,
+      "normal_cost_inr": 670,
+      "peak_minutes": 115,
+      "peak_cost_inr": 740
+    },
+    {
+      "from": "City Palace",
+      "to": "Hawa Mahal",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "City Palace",
+      "to": "Jantar Mantar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "City Palace",
+      "to": "Nahargarh Fort",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "City Palace",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "City Palace",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "City Palace",
+      "to": "Birla Mandir",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "City Palace",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "City Palace",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "City Palace",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "City Palace",
+      "to": "Galtaji Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "City Palace",
+      "to": "Central Park",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "City Palace",
+      "to": "Johari Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "City Palace",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "City Palace",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "City Palace",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "City Palace",
+      "to": "Tapri Central",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "City Palace",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "City Palace",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "City Palace",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "City Palace",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "City Palace",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Jantar Mantar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Nahargarh Fort",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Birla Mandir",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 190,
+      "peak_minutes": 30,
+      "peak_cost_inr": 210
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Galtaji Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Central Park",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Johari Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Tapri Central",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Hawa Mahal",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Nahargarh Fort",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Birla Mandir",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Galtaji Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Central Park",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Johari Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Tapri Central",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Jantar Mantar",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Jaigarh Fort",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Birla Mandir",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 70,
+      "normal_cost_inr": 510,
+      "peak_minutes": 90,
+      "peak_cost_inr": 560
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Galtaji Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Central Park",
+      "normal_minutes": 30,
+      "normal_cost_inr": 210,
+      "peak_minutes": 40,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Johari Bazaar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Tapri Central",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 30,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Handi Restaurant",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Spice Court",
+      "normal_minutes": 30,
+      "normal_cost_inr": 220,
+      "peak_minutes": 40,
+      "peak_cost_inr": 240
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Nahargarh Fort",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 70,
+      "normal_cost_inr": 510,
+      "peak_minutes": 90,
+      "peak_cost_inr": 560
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Albert Hall Museum",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Birla Mandir",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Jal Mahal",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 90,
+      "normal_cost_inr": 670,
+      "peak_minutes": 115,
+      "peak_cost_inr": 740
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Galtaji Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Central Park",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Johari Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Tapri Central",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Handi Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Spice Court",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 60,
+      "normal_cost_inr": 440,
+      "peak_minutes": 80,
+      "peak_cost_inr": 480
+    },
+    {
+      "from": "Jaigarh Fort",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 90,
+      "normal_cost_inr": 670,
+      "peak_minutes": 115,
+      "peak_cost_inr": 740
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Birla Mandir",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Jal Mahal",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Galtaji Temple",
+      "normal_minutes": 30,
+      "normal_cost_inr": 240,
+      "peak_minutes": 40,
+      "peak_cost_inr": 260
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Central Park",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Johari Bazaar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Tapri Central",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 100,
+      "peak_minutes": 20,
+      "peak_cost_inr": 110
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Spice Court",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 140,
+      "peak_minutes": 25,
+      "peak_cost_inr": 150
+    },
+    {
+      "from": "Albert Hall Museum",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Jal Mahal",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Galtaji Temple",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Central Park",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Johari Bazaar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Tapri Central",
+      "normal_minutes": 20,
+      "normal_cost_inr": 170,
+      "peak_minutes": 25,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Handi Restaurant",
+      "normal_minutes": 20,
+      "normal_cost_inr": 160,
+      "peak_minutes": 25,
+      "peak_cost_inr": 180
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Spice Court",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Birla Mandir",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 50,
+      "normal_cost_inr": 370,
+      "peak_minutes": 65,
+      "peak_cost_inr": 410
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Chokhi Dhani",
+      "normal_minutes": 75,
+      "normal_cost_inr": 550,
+      "peak_minutes": 100,
+      "peak_cost_inr": 600
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Galtaji Temple",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Central Park",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Johari Bazaar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 210,
+      "peak_minutes": 30,
+      "peak_cost_inr": 230
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 25,
+      "normal_cost_inr": 200,
+      "peak_minutes": 30,
+      "peak_cost_inr": 220
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Tapri Central",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Handi Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Spice Court",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Jal Mahal",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 75,
+      "normal_cost_inr": 550,
+      "peak_minutes": 100,
+      "peak_cost_inr": 600
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Panna Meena ka Kund",
+      "normal_minutes": 90,
+      "normal_cost_inr": 660,
+      "peak_minutes": 115,
+      "peak_cost_inr": 730
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Galtaji Temple",
+      "normal_minutes": 60,
+      "normal_cost_inr": 470,
+      "peak_minutes": 80,
+      "peak_cost_inr": 520
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Central Park",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Johari Bazaar",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Tapri Central",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Handi Restaurant",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Spice Court",
+      "normal_minutes": 80,
+      "normal_cost_inr": 610,
+      "peak_minutes": 105,
+      "peak_cost_inr": 670
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    },
+    {
+      "from": "Chokhi Dhani",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Galtaji Temple",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Central Park",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Johari Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 40,
+      "normal_cost_inr": 320,
+      "peak_minutes": 50,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Tapri Central",
+      "normal_minutes": 50,
+      "normal_cost_inr": 390,
+      "peak_minutes": 65,
+      "peak_cost_inr": 430
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Handi Restaurant",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Spice Court",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 60,
+      "normal_cost_inr": 430,
+      "peak_minutes": 80,
+      "peak_cost_inr": 470
+    },
+    {
+      "from": "Panna Meena ka Kund",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 90,
+      "normal_cost_inr": 660,
+      "peak_minutes": 115,
+      "peak_cost_inr": 730
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Central Park",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Johari Bazaar",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 250,
+      "peak_minutes": 45,
+      "peak_cost_inr": 280
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Tapri Central",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Handi Restaurant",
+      "normal_minutes": 35,
+      "normal_cost_inr": 280,
+      "peak_minutes": 45,
+      "peak_cost_inr": 310
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Spice Court",
+      "normal_minutes": 40,
+      "normal_cost_inr": 290,
+      "peak_minutes": 50,
+      "peak_cost_inr": 320
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 40,
+      "normal_cost_inr": 310,
+      "peak_minutes": 50,
+      "peak_cost_inr": 340
+    },
+    {
+      "from": "Galtaji Temple",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 60,
+      "normal_cost_inr": 470,
+      "peak_minutes": 80,
+      "peak_cost_inr": 520
+    },
+    {
+      "from": "Central Park",
+      "to": "Johari Bazaar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Central Park",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Central Park",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Central Park",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Central Park",
+      "to": "Tapri Central",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Central Park",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Central Park",
+      "to": "Handi Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Central Park",
+      "to": "Spice Court",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Central Park",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Central Park",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Bapu Bazaar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Tapri Central",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Johari Bazaar",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Laxmi Misthan Bhandar",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Tapri Central",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 170,
+      "peak_minutes": 30,
+      "peak_cost_inr": 190
+    },
+    {
+      "from": "Bapu Bazaar",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Peacock Rooftop Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 60,
+      "peak_minutes": 15,
+      "peak_cost_inr": 70
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Tapri Central",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 270,
+      "peak_minutes": 45,
+      "peak_cost_inr": 300
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Laxmi Misthan Bhandar",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Tapri Central",
+      "normal_minutes": 20,
+      "normal_cost_inr": 130,
+      "peak_minutes": 25,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Handi Restaurant",
+      "normal_minutes": 15,
+      "normal_cost_inr": 130,
+      "peak_minutes": 20,
+      "peak_cost_inr": 140
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Spice Court",
+      "normal_minutes": 35,
+      "normal_cost_inr": 260,
+      "peak_minutes": 45,
+      "peak_cost_inr": 290
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 25,
+      "normal_cost_inr": 180,
+      "peak_minutes": 30,
+      "peak_cost_inr": 200
+    },
+    {
+      "from": "Peacock Rooftop Restaurant",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 55,
+      "normal_cost_inr": 420,
+      "peak_minutes": 70,
+      "peak_cost_inr": 460
+    },
+    {
+      "from": "Tapri Central",
+      "to": "Four Seasons Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Tapri Central",
+      "to": "Handi Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 70,
+      "peak_minutes": 15,
+      "peak_cost_inr": 80
+    },
+    {
+      "from": "Tapri Central",
+      "to": "Spice Court",
+      "normal_minutes": 45,
+      "normal_cost_inr": 340,
+      "peak_minutes": 60,
+      "peak_cost_inr": 370
+    },
+    {
+      "from": "Tapri Central",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Tapri Central",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Four Seasons Restaurant",
+      "to": "Handi Restaurant",
+      "normal_minutes": 10,
+      "normal_cost_inr": 80,
+      "peak_minutes": 15,
+      "peak_cost_inr": 90
+    },
+    {
+      "from": "Four Seasons Restaurant",
+      "to": "Spice Court",
+      "normal_minutes": 45,
+      "normal_cost_inr": 320,
+      "peak_minutes": 60,
+      "peak_cost_inr": 350
+    },
+    {
+      "from": "Four Seasons Restaurant",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 120,
+      "peak_minutes": 20,
+      "peak_cost_inr": 130
+    },
+    {
+      "from": "Four Seasons Restaurant",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 50,
+      "normal_cost_inr": 360,
+      "peak_minutes": 65,
+      "peak_cost_inr": 400
+    },
+    {
+      "from": "Handi Restaurant",
+      "to": "Spice Court",
+      "normal_minutes": 45,
+      "normal_cost_inr": 330,
+      "peak_minutes": 60,
+      "peak_cost_inr": 360
+    },
+    {
+      "from": "Handi Restaurant",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 15,
+      "normal_cost_inr": 110,
+      "peak_minutes": 20,
+      "peak_cost_inr": 120
+    },
+    {
+      "from": "Handi Restaurant",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 45,
+      "normal_cost_inr": 350,
+      "peak_minutes": 60,
+      "peak_cost_inr": 390
+    },
+    {
+      "from": "Spice Court",
+      "to": "Rawat Mishthan Bhandar",
+      "normal_minutes": 50,
+      "normal_cost_inr": 380,
+      "peak_minutes": 65,
+      "peak_cost_inr": 420
+    },
+    {
+      "from": "Spice Court",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 80,
+      "normal_cost_inr": 610,
+      "peak_minutes": 105,
+      "peak_cost_inr": 670
+    },
+    {
+      "from": "Rawat Mishthan Bhandar",
+      "to": "Chokhi Dhani Dining",
+      "normal_minutes": 40,
+      "normal_cost_inr": 300,
+      "peak_minutes": 50,
+      "peak_cost_inr": 330
+    }
+  ]
+}

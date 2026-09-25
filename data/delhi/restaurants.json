@@ -1,0 +1,61 @@
+{
+  "city": "Delhi",
+  "restaurants": [
+    {
+      "name": "Karim's",
+      "area": "Old Delhi",
+      "cuisine": "Mughlai",
+      "avg_price_per_person_inr": 500,
+      "hours": {"open": "08:00", "close": "23:30"}
+    },
+    {
+      "name": "Indian Coffee House",
+      "area": "Connaught Place",
+      "cuisine": "Cafe and South Indian",
+      "avg_price_per_person_inr": 250,
+      "hours": {"open": "09:00", "close": "21:00"}
+    },
+    {
+      "name": "United Coffee House",
+      "area": "Connaught Place",
+      "cuisine": "Multi-cuisine",
+      "avg_price_per_person_inr": 700,
+      "hours": {"open": "11:00", "close": "23:00"}
+    },
+    {
+      "name": "Saravana Bhavan",
+      "area": "Connaught Place",
+      "cuisine": "South Indian vegetarian",
+      "avg_price_per_person_inr": 350,
+      "hours": {"open": "08:00", "close": "22:30"}
+    },
+    {
+      "name": "Paranthe Wali Gali",
+      "area": "Old Delhi",
+      "cuisine": "North Indian",
+      "avg_price_per_person_inr": 200,
+      "hours": {"open": "09:00", "close": "23:00"}
+    },
+    {
+      "name": "Bukhara",
+      "area": "Chanakyapuri",
+      "cuisine": "North-West Frontier",
+      "avg_price_per_person_inr": 3000,
+      "hours": {"open": "12:30", "close": "23:45"}
+    },
+    {
+      "name": "Khan Chacha",
+      "area": "Khan Market",
+      "cuisine": "Kebabs and rolls",
+      "avg_price_per_person_inr": 400,
+      "hours": {"open": "11:00", "close": "23:00"}
+    },
+    {
+      "name": "Dilli Haat Food Court",
+      "area": "INA",
+      "cuisine": "Regional multi-cuisine stalls",
+      "avg_price_per_person_inr": 300,
+      "hours": {"open": "11:00", "close": "22:00"}
+    }
+  ]
+}

@@ -90,3 +90,21 @@ class Itinerary(BaseModel):
     days: list[Day]
     total_cost_inr: float = Field(..., ge=0)
     assumptions: list[str] = Field(default_factory=list)
+
+
+class OutlineDay(BaseModel):
+    """One day of Stage 3's planning outline: the limits a day worker gets
+    instead of the whole Trip Request.
+    """
+
+    date: str = Field(..., description="YYYY-MM-DD")
+    available_from: str = Field(..., description="Earliest start time for this day, HH:MM")
+    available_to: str = Field(..., description="Latest end time for this day, HH:MM")
+    area: str = Field(..., description="Part of the city to focus on, to limit travel")
+    theme: str = Field(..., description="Short description of the kind of day, e.g. 'old city sights'")
+    budget_share_inr: float = Field(..., ge=0, description="This day's share of the trip Budget")
+    notes: str = Field("", description="Facts that affect the day, e.g. a hot afternoon")
+
+
+class Outline(BaseModel):
+    days: list[OutlineDay]
