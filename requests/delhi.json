@@ -1,0 +1,8 @@
+{
+  "destination": "Delhi",
+  "arrival": "2027-04-11T15:00:00",
+  "departure": "2027-04-13T18:00:00",
+  "budget_inr": 14000,
+  "traveler_age_groups": ["adult", "adult", "senior"],
+  "stay_area": "Connaught Place"
+}
