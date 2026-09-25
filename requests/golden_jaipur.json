@@ -1,0 +1,8 @@
+{
+  "destination": "Jaipur",
+  "arrival": "2027-04-11T15:00:00",
+  "departure": "2027-04-13T18:00:00",
+  "budget_inr": 12000,
+  "traveler_age_groups": ["adult", "adult", "child"],
+  "stay_area": "C-Scheme"
+}
