@@ -21,7 +21,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Trip Request / Itinerary schemas (`common/schema.py`)
 - [x] Simulated data: Jaipur (Golden Trip), Bangalore, Delhi
 - [x] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
-- [ ] Scoring script + hand-written test itineraries (`scoring/score.py`)
+- [x] Scoring script + hand-written test itineraries (`scoring/score.py`)
 - [ ] Stage 0 — baseline (one plain model call)
 - [ ] Stage 1 — tool calls (single round)
 - [ ] Stage 2 — ReAct (loop of thought/action/observation)
