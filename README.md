@@ -18,9 +18,9 @@ counters update — without reading terminal output.
 This repo is being built incrementally, committing after each piece:
 
 - [x] Project scaffolding, requirements, env config
-- [ ] Trip Request / Itinerary schemas (`common/schema.py`)
-- [ ] Simulated data: Jaipur (Golden Trip), Bangalore, Delhi
-- [ ] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
+- [x] Trip Request / Itinerary schemas (`common/schema.py`)
+- [x] Simulated data: Jaipur (Golden Trip), Bangalore, Delhi
+- [x] Tools, trace printer, token/call counters (`common/tools.py`, `common/trace.py`)
 - [ ] Scoring script + hand-written test itineraries (`scoring/score.py`)
 - [ ] Stage 0 — baseline (one plain model call)
 - [ ] Stage 1 — tool calls (single round)
