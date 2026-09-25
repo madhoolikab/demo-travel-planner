@@ -28,7 +28,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Stage 3 — planning (outline + per-day workers)
 - [x] Stage 4 — reflection (reviewer + reviser loop)
 - [x] Scorecard runner across all stages, multiple runs
-- [ ] Backend API (FastAPI) streaming live traces
+- [x] Backend API (FastAPI) streaming live traces
 - [ ] Frontend UI (run stages, watch traces, compare scorecards)
 
 ## Project layout
@@ -62,6 +62,26 @@ trip-planner-workshop/
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env   # fill in OPENAI_API_KEY
+```
+
+Run any stage from the command line:
+
+```bash
+python stages/stage0_baseline/run.py --request golden_jaipur
+python stages/stage2_react/run.py --request bangalore
+python stages/stage4_reflection/run.py --replay   # print the last saved run, no API call
+```
+
+Or run the whole scorecard across every stage:
+
+```bash
+python scoring/run_all.py --runs 3
+```
+
+Or run the web UI (backend + frontend on one port):
+
+```bash
+uvicorn backend.main:app --reload --port 8000
 ```
 
 ## The four patterns, in one line each
