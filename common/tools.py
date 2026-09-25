@@ -7,6 +7,7 @@ how these are implemented, and it never learns that the data is simulated.
 """
 from __future__ import annotations
 
+import functools
 import json
 from datetime import time
 from functools import lru_cache
@@ -38,8 +39,32 @@ def _all_city_keys() -> list[str]:
 
 
 def _minutes(hhmm: str) -> int:
-    t = time.fromisoformat(hhmm)
+    # Lenient on purpose: observed live, a model passed a full ISO datetime
+    # ('2027-04-11T16:00:00') where the tool documents HH:MM. Rather than
+    # reject a reasonable near-miss, take the time portion of whatever it sent.
+    text = hhmm.strip()
+    if "T" in text:
+        text = text.split("T", 1)[1]
+    t = time.fromisoformat(text)
     return t.hour * 60 + t.minute
+
+
+def _safe_tool(fn):
+    """A model can send input that doesn't match a tool's documented shape
+    even when the schema is right there -- observed live, a malformed date/
+    time crashed the whole graph with an unhandled exception. No single bad
+    tool call should ever take down the run; on anything unexpected, hand
+    the model back a plain message it can react to instead.
+    """
+
+    @functools.wraps(fn)
+    def wrapper(*args, **kwargs):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as exc:  # noqa: BLE001 -- deliberately broad, see docstring
+            return {"message": f"Could not complete this call: {exc}. Check the parameters and try again."}
+
+    return wrapper
 
 
 def _find_place(place_name: str) -> tuple[Optional[str], Optional[dict]]:
@@ -84,6 +109,7 @@ def _is_peak(depart_time: str, peak_windows: list[dict]) -> bool:
 
 
 @tool
+@_safe_tool
 def search_places(city: str, category: Optional[str] = None) -> dict:
     """Search for sights, attractions, and things to do in a city. Returns a
     list of places with their name, category, neighborhood, and typical
@@ -118,6 +144,7 @@ def search_places(city: str, category: Optional[str] = None) -> dict:
 
 
 @tool
+@_safe_tool
 def get_place_details(place_name: str, date: str) -> dict:
     """Get live details for one specific place on one specific date: whether
     it's open, its hours that day, ticket prices for child/adult/senior, how
@@ -153,6 +180,7 @@ def get_place_details(place_name: str, date: str) -> dict:
 
 
 @tool
+@_safe_tool
 def search_restaurants(
     city: str, area: Optional[str] = None, max_price_per_person: Optional[float] = None
 ) -> dict:
@@ -183,6 +211,7 @@ def search_restaurants(
 
 
 @tool
+@_safe_tool
 def get_weather(city: str, date: str) -> dict:
     """Get the weather forecast for a city on a specific date: condition,
     high temperature in Celsius, chance of rain, air quality, and any time
@@ -206,6 +235,7 @@ def get_weather(city: str, date: str) -> dict:
 
 
 @tool
+@_safe_tool
 def get_travel_time(from_place: str, to_place: str, depart_time: str) -> dict:
     """Get the estimated cab travel time and fare between two named places,
     departing at a specific time of day. Travel time and fare depend on
@@ -235,6 +265,7 @@ def get_travel_time(from_place: str, to_place: str, depart_time: str) -> dict:
 
 
 @tool
+@_safe_tool
 def calculate_total(amounts: list[float]) -> dict:
     """Add up a list of amounts and return the sum. Use this instead of
     adding numbers yourself, especially for running totals across a

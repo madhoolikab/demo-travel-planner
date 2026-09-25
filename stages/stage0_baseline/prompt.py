@@ -13,7 +13,10 @@ SYSTEM_PROMPT = (
     "name real places, give a start and end time for every slot, and a cost "
     "in INR for the whole group. Include a travel slot for every move "
     "between places, including from the stay area at the start of the day "
-    "and back at the end. State a total cost and any assumptions you made."
+    "and back at the end. For a travel slot, place_name is just the "
+    "destination you're arriving at (e.g. 'Amber Fort'), never a "
+    "description of the route -- say how you're getting there in the note "
+    "instead. State a total cost and any assumptions you made."
 )
 
 

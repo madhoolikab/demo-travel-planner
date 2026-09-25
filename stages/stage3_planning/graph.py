@@ -16,6 +16,7 @@ from langgraph.graph import END, StateGraph
 from pydantic import BaseModel
 
 from common.llm import get_llm, usage_from_message
+from common.output_checks import day_date_error
 from common.react_loop import run_react_loop
 from common.schema import Day, Itinerary, Outline, OutlineDay, TripRequest
 from common.tools import ALL_TOOLS, calculate_total, get_weather, search_places
@@ -24,11 +25,11 @@ from scoring.score import ARRIVAL_BUFFER_MIN, DEPARTURE_BUFFER_MIN
 
 from .prompt import (
     DAY_WORKER_SYSTEM_PROMPT,
-    DAY_WORKER_WRITER_SYSTEM_PROMPT,
     PLANNER_SYSTEM_PROMPT,
-    PLANNER_WRITER_SYSTEM_PROMPT,
     build_day_user_prompt,
+    build_day_writer_system_prompt,
     build_planner_user_prompt,
+    build_planner_writer_system_prompt,
 )
 
 PLANNER_TOOLS = [get_weather, search_places]
@@ -137,7 +138,7 @@ def _run_planner(trip: TripRequest, tracer: Tracer) -> Outline:
         tracer.observation(call["name"], result)
         messages.append(ToolMessage(content=json.dumps(result), tool_call_id=call["id"], name=call["name"]))
 
-    messages.append(SystemMessage(content=PLANNER_WRITER_SYSTEM_PROMPT))
+    messages.append(SystemMessage(content=build_planner_writer_system_prompt([b["date"] for b in bounds])))
     result = writer_llm.invoke(messages)
     tracer.model_usage(usage_from_message(result.get("raw")), node="planner:writer")
     draft: PlannerOutlineDraft = result["parsed"]
@@ -151,9 +152,10 @@ def _run_day_worker(trip: TripRequest, outline_day: OutlineDay, used_places: lis
         user_prompt=build_day_user_prompt(trip, outline_day, used_places),
         tools=ALL_TOOLS,
         output_schema=Day,
-        writer_system_prompt=DAY_WORKER_WRITER_SYSTEM_PROMPT,
+        writer_system_prompt=build_day_writer_system_prompt(outline_day.date),
         max_steps=DAY_WORKER_MAX_STEPS,
         label=outline_day.date,
+        output_validator=lambda day: day_date_error(day, outline_day.date),
     )
 
 
