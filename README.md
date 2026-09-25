@@ -25,7 +25,7 @@ This repo is being built incrementally, committing after each piece:
 - [x] Stage 0 — baseline (one plain model call)
 - [x] Stage 1 — tool calls (single round)
 - [x] Stage 2 — ReAct (loop of thought/action/observation)
-- [ ] Stage 3 — planning (outline + per-day workers)
+- [x] Stage 3 — planning (outline + per-day workers)
 - [ ] Stage 4 — reflection (reviewer + reviser loop)
 - [ ] Scorecard runner across all stages, multiple runs
 - [ ] Backend API (FastAPI) streaming live traces
