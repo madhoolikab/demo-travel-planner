@@ -285,3 +285,31 @@ ALL_TOOLS = [
     get_travel_time,
     calculate_total,
 ]
+
+
+def describe_tool_call(tool_name: str, args: dict) -> str:
+    """A plain-English restatement of a tool call, used as the visible
+    "thought" in the trace/UI when the model itself sent no reasoning text.
+
+    Observed live: with OpenAI's native function calling, a model that
+    decides to call a tool very often sends empty message content along
+    with it, regardless of how explicitly the prompt asks for a sentence
+    first -- content and tool_calls are largely mutually exclusive in
+    practice. Rather than leave the step unexplained, this describes the
+    real call actually being made, so the trace always reads clearly.
+    """
+    if tool_name == "get_place_details":
+        return f"Checking whether {args.get('place_name', 'this place')} is open and suitable on {args.get('date', 'this date')}."
+    if tool_name == "get_travel_time":
+        return f"Checking the travel time from {args.get('from_place')} to {args.get('to_place')} around {args.get('depart_time')}."
+    if tool_name == "get_weather":
+        return f"Checking the weather in {args.get('city')} on {args.get('date')}."
+    if tool_name == "search_places":
+        category = f" ({args['category']})" if args.get("category") else ""
+        return f"Looking for places to visit in {args.get('city')}{category}."
+    if tool_name == "search_restaurants":
+        area = f" in {args['area']}" if args.get("area") else ""
+        return f"Looking for restaurants{area} in {args.get('city')}."
+    if tool_name == "calculate_total":
+        return "Adding up the costs so far."
+    return f"Calling {tool_name}."

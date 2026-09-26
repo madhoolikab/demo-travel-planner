@@ -17,6 +17,7 @@ from langgraph.graph.message import add_messages
 from pydantic import BaseModel
 
 from common.llm import get_llm, usage_from_message
+from common.tools import describe_tool_call
 from common.trace import Tracer
 
 T = TypeVar("T", bound=BaseModel)
@@ -77,8 +78,17 @@ def build_react_loop_graph(
         model = react_llm_first_step if steps == 1 else react_llm
         ai_message = model.invoke(state["messages"])
         tracer.model_usage(usage_from_message(ai_message), node=f"{label}:react" if label else "react")
-        if isinstance(ai_message.content, str) and ai_message.content.strip():
-            tracer.thought(ai_message.content.strip(), day=label or None)
+
+        text = ai_message.content.strip() if isinstance(ai_message.content, str) else ""
+        if not text and ai_message.tool_calls:
+            # The model called a tool with no explanation -- normal for
+            # OpenAI function calling, not an error. Describe the actual
+            # call being made instead of leaving the step unexplained.
+            call = ai_message.tool_calls[0]
+            text = describe_tool_call(call["name"], call["args"])
+        if text:
+            tracer.thought(text, day=label or None)
+
         return {"messages": [ai_message], "steps": steps}
 
     def run_tools(state: ReactLoopState) -> dict:
