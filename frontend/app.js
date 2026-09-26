@@ -19,6 +19,7 @@ const TRACE_ICONS = {
   marker: "·", // ·
   error: "!",
   run_start: "▸", // ▸
+  itinerary: "✓",
 };
 
 // ---------------------------------------------------------------------
@@ -283,8 +284,14 @@ function traceRowHtml(event) {
     }
     case "error":
       return `<span class="trace-label">Error</span> ${escapeHtml(event.message || "")} ${t}`;
+    case "itinerary": {
+      const it = event.itinerary || {};
+      const days = (it.days || []).length;
+      const total = (it.total_cost_inr || 0).toLocaleString();
+      return `<span class="trace-label">Itinerary drafted</span> <span class="trace-meta">${days} day(s) · ₹${total} total</span> ${t}`;
+    }
     default:
-      return `<span>${escapeHtml(JSON.stringify(event))}</span>`;
+      return `<span>${escapeHtml(truncate(JSON.stringify(event), 200))}</span>`;
   }
 }
 

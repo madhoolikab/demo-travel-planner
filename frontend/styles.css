@@ -461,6 +461,10 @@ button.run-btn:disabled {
   color: var(--status-critical);
 }
 
+.trace-row.itinerary {
+  border-left-color: var(--status-good);
+}
+
 /* ---------- Itinerary ---------- */
 
 .day-card {
