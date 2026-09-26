@@ -13,11 +13,12 @@ from langgraph.graph import END, StateGraph
 from langgraph.graph.message import add_messages
 
 from common.llm import get_llm, usage_from_message
+from common.output_checks import itinerary_day_coverage_error
 from common.schema import Itinerary, TripRequest
 from common.tools import ALL_TOOLS
 from common.trace import Tracer
 
-from .prompt import TOOL_CALLER_SYSTEM_PROMPT, WRITER_SYSTEM_PROMPT, build_user_prompt
+from .prompt import TOOL_CALLER_SYSTEM_PROMPT, build_user_prompt, build_writer_system_prompt
 
 TOOLS_BY_NAME = {t.name: t for t in ALL_TOOLS}
 
@@ -27,9 +28,11 @@ class Stage1State(TypedDict):
     itinerary: Optional[dict]
 
 
-def build_graph(tracer: Tracer):
+def build_graph(tracer: Tracer, trip: TripRequest):
     tool_caller_llm = get_llm(temperature=0).bind_tools(ALL_TOOLS)
     writer_llm = get_llm(temperature=0).with_structured_output(Itinerary, include_raw=True)
+    writer_system_prompt = build_writer_system_prompt(trip)
+    expected_dates = [d.isoformat() for d in trip.trip_dates()]
 
     def choose_tools(state: Stage1State) -> dict:
         tracer.stage_marker("Model chooses tool calls")
@@ -51,10 +54,19 @@ def build_graph(tracer: Tracer):
 
     def write_itinerary(state: Stage1State) -> dict:
         tracer.stage_marker("Model writes itinerary (no tools attached)")
-        messages = state["messages"] + [SystemMessage(content=WRITER_SYSTEM_PROMPT)]
+        messages = state["messages"] + [SystemMessage(content=writer_system_prompt)]
         result = writer_llm.invoke(messages)
         tracer.model_usage(usage_from_message(result.get("raw")), node="writer")
         itinerary: Itinerary = result["parsed"]
+
+        error = itinerary_day_coverage_error(itinerary, expected_dates)
+        if error:
+            tracer.stage_marker(f"Output failed a check, retrying once: {error}")
+            retry_messages = messages + [result["raw"], HumanMessage(content=error)]
+            retry_result = writer_llm.invoke(retry_messages)
+            tracer.model_usage(usage_from_message(retry_result.get("raw")), node="writer_retry")
+            itinerary = retry_result["parsed"]
+
         tracer.final_itinerary(itinerary.model_dump(mode="json"))
         return {"itinerary": itinerary.model_dump(mode="json")}
 
@@ -70,7 +82,7 @@ def build_graph(tracer: Tracer):
 
 
 def run(trip: TripRequest, tracer: Tracer) -> Itinerary:
-    app = build_graph(tracer)
+    app = build_graph(tracer, trip)
     initial_state: Stage1State = {
         "messages": [
             SystemMessage(content=TOOL_CALLER_SYSTEM_PROMPT),

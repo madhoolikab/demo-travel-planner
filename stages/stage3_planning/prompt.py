@@ -22,12 +22,6 @@ PLANNER_SYSTEM_PROMPT = (
     "Budget."
 )
 
-PLANNER_WRITER_SYSTEM_PROMPT = (
-    "Using what you've learned, write the outline: one entry per calendar "
-    "day listed above, each with an area, a theme, a budget share in INR, "
-    "and notes."
-)
-
 DAY_WORKER_SYSTEM_PROMPT = (
     "You are filling in a single day of a multi-day trip. You have tools "
     "to look up places, restaurants, weather, and travel times. Work step "
@@ -37,20 +31,40 @@ DAY_WORKER_SYSTEM_PROMPT = (
     "with no further tool calls."
 )
 
-DAY_WORKER_WRITER_SYSTEM_PROMPT = (
-    "Using only what you learned from the tools above, write today as a "
-    "list of time slots (activities, meals, and travel), each with a "
-    "start and end time and a cost in INR for the whole group. Do not "
-    "invent facts you were not given by a tool. Stay within today's time "
-    "window and budget share. Include a travel slot for every move, "
-    "including from the stay area at the start of the day and back at "
-    "the end."
-)
-
 
 def build_planner_user_prompt(trip: TripRequest, day_dates: list[str]) -> str:
     dates_desc = "\n".join(f"- {d}" for d in day_dates)
     return f"{build_trip_summary(trip)}\n\nDays to plan for:\n{dates_desc}"
+
+
+def build_planner_writer_system_prompt(day_dates: list[str]) -> str:
+    # Restated here, not just in the user prompt above, for the same reason
+    # as common.prompts.build_tool_grounded_writer_prompt: several tool
+    # messages can sit between that first mention and this write step.
+    dates_desc = ", ".join(day_dates)
+    return (
+        "Using what you've learned, write the outline. It must include "
+        f"exactly these {len(day_dates)} calendar day(s), each with its own "
+        f"entry, in order: {dates_desc}. Give each one an area, a theme, a "
+        "budget share in INR, and notes."
+    )
+
+
+def build_day_writer_system_prompt(date: str) -> str:
+    return (
+        f"Using only what you learned from the tools above, write today, "
+        f"{date}, as a list of time slots (activities, meals, and travel), "
+        "each with a start and end time and a cost in INR for the whole "
+        "group. Do not invent facts you were not given by a tool. Stay "
+        "within today's time window and budget share. Include a travel "
+        "slot for every move, including from the stay area at the start of "
+        "the day and back at the end. For a travel slot, place_name is "
+        "just the destination you're arriving at (e.g. 'Amber Fort'), "
+        "never a description of the route (not 'C-Scheme to Amber Fort') "
+        "-- say how you're getting there in the note instead, e.g. 'Cab "
+        f"from the stay area'. Write only this one day, dated {date} -- do "
+        "not include any other date."
+    )
 
 
 def build_day_user_prompt(trip: TripRequest, day: OutlineDay, used_places: list[str]) -> str:

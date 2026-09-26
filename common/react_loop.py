@@ -9,7 +9,7 @@ only the tools, the prompts, and the output shape do.
 from __future__ import annotations
 
 import json
-from typing import Annotated, Optional, Type, TypedDict, TypeVar
+from typing import Annotated, Callable, Optional, Type, TypedDict, TypeVar
 
 from langchain_core.messages import AnyMessage, HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, StateGraph
@@ -35,6 +35,7 @@ def build_react_loop_graph(
     writer_system_prompt: str,
     max_steps: int = 15,
     label: str = "",
+    output_validator: Optional[Callable[[T], Optional[str]]] = None,
 ):
     """A model bound to `tools` gives a one-sentence thought and picks an
     action, the tools run, and it repeats -- observing each result and
@@ -44,16 +45,37 @@ def build_react_loop_graph(
 
     `label` tags trace events (e.g. a day's date) so a caller running this
     loop several times (once per day) can tell the steps apart in the UI.
+
+    `output_validator`, if given, is called on the parsed output; if it
+    returns an error string instead of None, the writer gets one retry with
+    that message appended, instead of the (possibly wrong) result being
+    trusted outright. See common/output_checks.py for why this exists.
     """
     tools_by_name = {t.name: t for t in tools}
-    react_llm = get_llm(temperature=0).bind_tools(tools)
+    # One action per step is the ReAct pattern itself, not just a technical
+    # limit: parallel_tool_calls=False also sidesteps a real failure mode
+    # seen live, where a model tried to request several tools in one
+    # malformed text blob that never parsed as real tool_calls, silently
+    # producing zero tool calls for that step.
+    react_llm = get_llm(temperature=0).bind_tools(tools, parallel_tool_calls=False)
+    # On the very first step there is nothing gathered yet, so "decide not
+    # to call a tool" is never a reasonable choice -- but observed live,
+    # gpt-4o-mini would sometimes do exactly that anyway, narrating an
+    # entire plan as plain text instead of using any tool. tool_choice=
+    # "required" makes that first call structurally impossible to skip;
+    # every later step goes back to normal "auto" so the model can still
+    # choose to stop the loop once it actually has something to go on.
+    react_llm_first_step = get_llm(temperature=0).bind_tools(
+        tools, parallel_tool_calls=False, tool_choice="required"
+    )
     writer_llm = get_llm(temperature=0).with_structured_output(output_schema, include_raw=True)
     prefix = f"[{label}] " if label else ""
 
     def think_and_act(state: ReactLoopState) -> dict:
         steps = state.get("steps", 0) + 1
         tracer.stage_marker(f"{prefix}step {steps}: model gives a thought and picks the next action")
-        ai_message = react_llm.invoke(state["messages"])
+        model = react_llm_first_step if steps == 1 else react_llm
+        ai_message = model.invoke(state["messages"])
         tracer.model_usage(usage_from_message(ai_message), node=f"{label}:react" if label else "react")
         if isinstance(ai_message.content, str) and ai_message.content.strip():
             tracer.thought(ai_message.content.strip(), day=label or None)
@@ -72,10 +94,31 @@ def build_react_loop_graph(
 
     def write_output(state: ReactLoopState) -> dict:
         tracer.stage_marker(f"{prefix}writing the final output (loop ended)")
-        messages = state["messages"] + [SystemMessage(content=writer_system_prompt)]
+        history = state["messages"]
+        if getattr(history[-1], "tool_calls", None):
+            # The step cap was hit with the model mid-turn, wanting more
+            # tool calls that never ran. An assistant message with
+            # tool_calls must be immediately followed by a response for
+            # each one, or the API rejects the whole request -- so drop
+            # that incomplete turn rather than send a malformed history.
+            history = history[:-1]
+        messages = history + [SystemMessage(content=writer_system_prompt)]
         result = writer_llm.invoke(messages)
         tracer.model_usage(usage_from_message(result.get("raw")), node=f"{label}:writer" if label else "writer")
         parsed: T = result["parsed"]
+
+        if output_validator:
+            error = output_validator(parsed)
+            if error:
+                tracer.stage_marker(f"{prefix}output failed a check, retrying once: {error}")
+                retry_messages = messages + [result["raw"], HumanMessage(content=error)]
+                retry_result = writer_llm.invoke(retry_messages)
+                tracer.model_usage(
+                    usage_from_message(retry_result.get("raw")),
+                    node=f"{label}:writer_retry" if label else "writer_retry",
+                )
+                parsed = retry_result["parsed"]
+
         return {"output": parsed.model_dump(mode="json")}
 
     def route(state: ReactLoopState) -> str:
@@ -108,8 +151,11 @@ def run_react_loop(
     writer_system_prompt: str,
     max_steps: int = 15,
     label: str = "",
+    output_validator: Optional[Callable[[T], Optional[str]]] = None,
 ) -> T:
-    app = build_react_loop_graph(tracer, tools, output_schema, writer_system_prompt, max_steps, label)
+    app = build_react_loop_graph(
+        tracer, tools, output_schema, writer_system_prompt, max_steps, label, output_validator
+    )
     initial_state: ReactLoopState = {
         "messages": [SystemMessage(content=system_prompt), HumanMessage(content=user_prompt)],
         "output": None,

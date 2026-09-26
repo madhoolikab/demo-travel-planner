@@ -59,7 +59,15 @@ class Slot(BaseModel):
     """One time slot in a day: an activity, a meal, or travel between places."""
 
     kind: SlotKind
-    place_name: str = Field(..., description="Must match a name in the city's data exactly")
+    place_name: str = Field(
+        ...,
+        description=(
+            "Must match a name in the city's data exactly. For a travel slot, this is "
+            "just the destination you are arriving at (e.g. 'Amber Fort'), never a "
+            "description of the route (not 'C-Scheme to Amber Fort') -- say how you're "
+            "getting there in `note` instead, e.g. 'Cab from the stay area'."
+        ),
+    )
     start: str = Field(..., description="HH:MM, 24-hour")
     end: str = Field(..., description="HH:MM, 24-hour")
     cost_inr: float = Field(..., ge=0, description="Cost in INR for the whole group")
